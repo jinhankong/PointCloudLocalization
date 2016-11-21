@@ -1,0 +1,29 @@
+<package format="2">
+  <name>localization</name>
+  <version>0.0.1</version>
+  <description>
+    point cloud localization package
+  </description>
+  <author>WengLihong</author>
+  <maintainer email="wengge987@163.com">WengLihong</maintainer>
+  <license>BSD</license>
+  <url>s</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+  
+  <depend>mrpt</depend>
+  <depend>mrpt_bridge</depend>
+  <depend>mrpt_maps</depend>
+  <depend>mrpt_msgs</depend>
+  <depend>mrpt_local_obstacles</depend>
+  
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+</package>
