@@ -44,9 +44,9 @@ find_package(MRPT REQUIRED
 #  std_msgs
 #)
 
-#generate_dynamic_reconfigure_options(
-#  cfg/velocity_control.cfg
-#)
+generate_dynamic_reconfigure_options(
+  cfg/calibration.cfg
+)
 
 catkin_package(
   CATKIN_DEPENDS 
